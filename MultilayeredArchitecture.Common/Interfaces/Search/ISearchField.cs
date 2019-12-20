@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MultilayeredArchitecture.Services
+namespace MultilayeredArchitecture.Common.Interfaces.Search
 {
-    public class Class1
+    public interface ISearchField : IBaseSearchField
     {
+        
     }
 }

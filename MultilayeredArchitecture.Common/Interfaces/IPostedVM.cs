@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MultilayeredArchitecture.DataAccess
+namespace MultilayeredArchitecture.Common.Interfaces
 {
-    public class Class1
+    interface IPostedVM
     {
+        string Id { get; set; }
     }
 }
